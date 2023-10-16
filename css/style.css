@@ -10,9 +10,10 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #eaeaea;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 a {
@@ -39,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins';
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -61,13 +62,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #50d8af;
+  background: #175577;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #0c2e8a;
+  background: #175577;
   color: #fff;
 }
 
@@ -76,10 +77,10 @@ h6 {
 --------------------------------------------------------------*/
 
 #topbar {
-  background: #fff;
+  background: #fbcf4f;
   padding: 10px 0;
   border-bottom: 1px solid #eee;
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 #topbar .contact-info a {
@@ -88,11 +89,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #50d8af;
+  color: #175577;
 }
 
 #topbar .contact-info i {
-  color: #50d8af;
+  color: #175577;
   padding: 4px;
 }
 
@@ -111,7 +112,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #50d8af;
+  color: #175577;
 }
 
 #topbar .social-links a:first-child {
@@ -127,7 +128,7 @@ h6 {
   height: 84px;
   transition: all 0.5s;
   z-index: 997;
-  background: #fff;
+  background: #eaeaea;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -154,6 +155,8 @@ h6 {
   padding: 0;
   margin: 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -195,20 +198,20 @@ h6 {
 }
 
 #intro .intro-content h2 {
-  color: #0f2563;
+  color: #175577;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
 }
 
 #intro .intro-content h2 span {
-  color: #ff0000; 
+  color: #d62738; 
   text-decoration: underline;
 }
 
 #intro .intro-content .btn-get-started,
 #intro .intro-content .btn-projects {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Poppins';
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -221,23 +224,23 @@ h6 {
 }
 
 #intro .intro-content .btn-get-started {
-  background: #0c2e8a;
-  border: 2px solid #0c2e8a;
+  background: #175577;
+  border: 2px solid #175577;
 }
 
 #intro .intro-content .btn-get-started:hover {
   background: none;
-  color: #0c2e8a;
+  color: #175577;
 }
 
 #intro .intro-content .btn-projects {
-  background: #d85050;
-  border: 2px solid #d85050;
+  background: #d62738;
+  border: 2px solid #d62738;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #d85050;
+  color: #d62738;
 }
 
 #intro #intro-carousel {
@@ -319,7 +322,7 @@ h6 {
   content: "\f107";
   position: absolute;
   right: 8px;
-  font-family: FontAwesome;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: normal;
 }
@@ -342,7 +345,7 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Poppins';
   font-weight: 700;
   font-size: 14px;
   outline: none;
@@ -350,7 +353,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #d85050;
+  color: #175577;
 }
 
 .nav-menu > li {
@@ -506,8 +509,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
-  text-transform: uppercase;
+  color: #175577;
+  /* text-transform: uppercase; */
   font-weight: 700;
   position: relative;
   padding-bottom: 20px;
@@ -519,7 +522,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #175577;
   bottom: 0;
   left: 0;
 }
@@ -546,10 +549,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h2 {
-  color: #0c2e8a;
+  color: #175577;
   font-weight: 700;
   font-size: 36px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Poppins';
 }
 
 #about .content h3 {
@@ -571,7 +574,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #d62738;
 }
 
 #about .content ul {
@@ -625,7 +628,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-  background: #0c2e8a;
+  background: #175577;
   background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -684,14 +687,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #d62738;
 }
 
 /* Our Portfolio Section
 --------------------------------*/
 
 #portfolio {
-  background: #fff;
+  background: #eaeaea;
   padding: 30px 0;
 }
 
@@ -821,14 +824,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #d62738;
 }
 
 /* Call To Action Section
 --------------------------------*/
 
 #call-to-action {
-  background: #081e5b;
+  background: #175577;
   background-size: cover;
   padding: 40px 0;
 }
@@ -844,7 +847,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Poppins';
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -858,15 +861,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #fbcf4f;
+  border: 3px solid #fbcf4f;
 }
 
 /* Our Team Section
 --------------------------------*/
 
 #team {
-  background: #fff;
+  background: #eaeaea;
   padding: 30px 0 0 0;
 }
 
@@ -885,7 +888,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #175577;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -932,7 +935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #175577;
 }
 
 #contact .contact-info address,
@@ -954,7 +957,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #50d8af;
+  color: #175577;
 }
 
 #contact .contact-address,
@@ -1145,4 +1148,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact #google-map {
     margin-top: 20px;
   }
+}
+
+@media (max-width: 1024px) {
+  .container-header {
+    padding: 20px 30px;
+    margin-right: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 }
